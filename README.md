@@ -1,15 +1,14 @@
 # Inverse-kinematic-modeling-using-robo-analyzer-
-
  
 ## AIM: 
-To analyze the inverse kinematics using DH parameters for a 3 dof planer and 3 dof articulated robot using roboanalyzer and polt the graph of joint angle for a given  input end effector position .
+To analyze the inverse kinematics using DH parameters for a 3 dof planer and 3 dof articulated robot using roboanalyzer.
 
 
-### COMPONENTS REQUIRED:
+## COMPONENTS REQUIRED:
 1.Robo analyzer software  
 
 
-### THEORY: 
+## THEORY: 
   
 ### Inverse Kinematics
  
@@ -24,7 +23,7 @@ For example, if you want the robot’s end effector to move 1 mm linearly along 
 
 Finally, inverse kinematics algorithms calculate the exact position of each of the robot’s joints required to reach your desired end effector pose.
 
-### solving inverse kinematic model 
+## solving inverse kinematic model 
 ![image](https://user-images.githubusercontent.com/36288975/170622829-3fe97ef7-8ef1-44af-afae-b0954871aa0c.png)
 
 
@@ -35,51 +34,26 @@ Finally, inverse kinematics algorithms calculate the exact position of each of t
 ![image](https://user-images.githubusercontent.com/36288975/170622982-9c4d8b23-1563-4e17-9616-87bcc4f4501d.png)
 ![image](https://user-images.githubusercontent.com/36288975/170623020-f27efc12-bb58-4f62-840d-af544ac6689e.png)
 
-### PROCEDURE:
+## PROCEDURE:
 
+### STEP 1:
+open the roboanalyzer software.
+### STEP 2:
+select the robot and its degrees of freedom.
+### STEP 3:
+change the values of X and Y wherever necessary.
+### STEP 4:
+simulate the model for inverse kinematics.
+### STEP 5:
+update the DH parameters of the link configuration and end effector configuration.
 
-
-
-
-
-
-
-### SIMULATION 
+## SIMULATION 
  
- 
- 
- 
- 
- 
- 
- ### PLOT 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+### 3R PLANAR
+![OUTPUT](./1.png)
 
+### 3R ARTICULATED
+![OUTPUT](./2.png)
  
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### RESULTS :  
+## RESULT:  
+The inverse kinematics using DH parameters for a 3 dof planer and 3 dof articulated robot using roboanalyzer has been analyzed.
